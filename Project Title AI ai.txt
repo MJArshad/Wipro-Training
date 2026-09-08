@@ -1,0 +1,386 @@
+PPT Title
+
+AI-Powered Smart Complaint Analysis System Automating Complaint Classification, Prioritization, and Routing Using Artificial Intelligence
+
+Slide 1: Title Slide
+AI-Powered Smart Complaint Analysis System
+
+Presented By: Mohammad Jamal Arshad
+
+Project Goal: Automate complaint analysis using AI to reduce manual effort and improve customer support efficiency.
+
+Slide 2: Agenda
+Introduction
+Problem Statement
+Current Challenges
+Proposed Solution
+Why AI Instead of Traditional Coding?
+System Features
+SDLC Approach
+System Architecture
+Process Flow
+Technology Stack
+Sample Use Case
+Testing Strategy
+Future Enhancements
+Business Benefits
+Conclusion
+Slide 3: Introduction
+Project Overview
+
+Organizations receive large numbers of customer complaints through:
+
+Email
+Support Portals
+Chat Systems
+Mobile Applications
+
+Manually reviewing and routing complaints is slow and inefficient.
+
+This project uses AI to automate complaint understanding and classification.
+
+Slide 4: Problem Statement
+Problem
+
+Customer support teams spend significant time:
+
+Reading complaints
+Determining issue types
+Assigning priorities
+Routing requests to departments
+Challenges
+Time-consuming process
+Human errors
+Delayed responses
+Poor customer experience
+Slide 5: Current Process & Challenges
+Existing Workflow
+Plain Text
+1
+Customer
+2
+↓
+3
+Support Team Reads Complaint
+4
+↓
+5
+Manually Identifies Issue
+6
+↓
+7
+Assigns Priority
+8
+↓
+9
+Routes to Department
+Show more lines
+Issues
+
+❌ Slow response
+
+❌ High workload
+
+❌ Inconsistent categorization
+
+❌ Difficult to scale
+
+Slide 6: Proposed Solution
+AI-Powered Complaint Analysis System
+
+The system:
+
+✅ Reads customer complaints
+
+✅ Understands context
+
+✅ Classifies complaint category
+
+✅ Determines priority
+
+✅ Generates summary
+
+✅ Routes to appropriate department
+
+Slide 7: Why AI Instead of Traditional Coding?
+Traditional Coding
+
+Example:
+
+Plain Text
+1
+IF complaint contains "payment"
+2
+→ Payment Issue
+3
+ 
+4
+IF complaint contains "login"
+5
+→ Login Issue
+Show more lines
+Limitations
+
+Customers describe the same issue differently.
+
+Example:
+
+Plain Text
+1
+Money deducted twice
+2
+ 
+3
+Account charged unexpectedly
+4
+ 
+5
+Payment completed but service unavailable
+Show more lines
+AI Advantage
+
+AI understands intent and context rather than relying only on keywords.
+
+Slide 8: Key Features
+Core Features
+Complaint Classification
+Priority Detection
+Complaint Summarization
+Sentiment Analysis
+Department Routing
+AI Features
+Natural Language Understanding
+Context Awareness
+Intelligent Categorization
+Slide 9: SDLC - Requirement Gathering
+Functional Requirements
+Submit complaint
+Analyze complaint
+Categorize issue
+Generate summary
+Assign priority
+Route complaint
+Non-Functional Requirements
+Quick response
+User-friendly UI
+High accuracy
+Scalable design
+Slide 10: SDLC - Planning
+Project Timeline
+Day	ActivityDay 1	Requirements & Design
+Day 2	Development
+Day 3	Testing
+Day 4	Documentation & Presentation
+Slide 11: SDLC - Design
+High-Level Components
+User Interface
+Backend Services
+AI Engine
+Database
+Reporting Dashboard
+Slide 12: System Architecture
+Plain Text
+1
++--------------------+
+2
+| Customer |
+3
++--------------------+
+4
+|
+5
+v
+6
++--------------------+
+7
+| Complaint Portal |
+8
++--------------------+
+9
+|
+10
+v
+11
++--------------------+
+12
+| Backend API Layer |
+13
++--------------------+
+14
+|
+15
+v
+16
++--------------------+
+17
+| AI Engine |
+18
++--------------------+
+19
+| | |
+20
+v v v
+21
+Category Priority Summary
+22
+Detection Detection Generation
+23
+ 
+24
+|
+25
+v
+26
+ 
+27
++--------------------+
+28
+| Routing Engine |
+29
++--------------------+
+30
+|
+31
+v
+32
++--------------------+
+33
+| Support Department |
+34
++--------------------+
+Show more lines
+Slide 13: Process Flow
+Plain Text
+1
+User Enters Complaint
+2
+↓
+3
+Complaint Submitted
+4
+↓
+5
+AI Analysis
+6
+↓
+7
+Category Identification
+8
+↓
+9
+Priority Assignment
+10
+↓
+11
+Summary Generation
+12
+↓
+13
+Department Routing
+14
+↓
+15
+Final Output
+Show more lines
+Slide 14: Technology Stack
+Frontend
+Streamlit
+Backend
+Python
+FastAPI
+AI Layer
+OpenAI GPT / Azure OpenAI / Gemini
+Database
+SQLite / PostgreSQL
+Deployment
+Azure
+AWS
+Render
+Slide 15: Sample Use Case
+Input Complaint
+Plain Text
+1
+Money deducted from my account but order was not confirmed.
+Show more lines
+AI Output
+Plain Text
+1
+Category:
+2
+Payment Issue
+3
+ 
+4
+Priority:
+5
+High
+6
+ 
+7
+Department:
+8
+Finance Team
+9
+ 
+10
+Summary:
+11
+Customer payment was deducted,
+12
+but order confirmation was not received.
+Show more lines
+Slide 16: Testing Strategy
+Test Cases
+Input	Expected ResultPayment deducted twice	Payment Issue
+Unable to login	Account Issue
+Internet not working	Technical Issue
+Product damaged	Delivery Issue
+Slide 17: Future Enhancements
+Phase 2 Features
+Voice Complaint Support
+Multilingual Support
+Auto Ticket Creation
+Analytics Dashboard
+AI Recommendations
+Advanced Enhancement
+
+RAG-Based Knowledge Retrieval
+
+Retrieve answers from:
+
+Policy Documents
+Support Manuals
+Business Guidelines
+Slide 18: Business Benefits
+Benefits
+
+✅ Reduced manual effort
+
+✅ Faster complaint processing
+
+✅ Improved customer satisfaction
+
+✅ Better resource utilization
+
+✅ Consistent complaint handling
+
+✅ Scalable customer support
+
+Slide 19: Conclusion
+Summary
+
+The Smart Complaint Analysis System leverages AI to:
+
+Understand customer complaints
+Categorize issues automatically
+Detect priority levels
+Generate summaries
+Route complaints efficiently
+
+This solution improves operational efficiency and enhances the customer support experience.
+
+Slide 20: Thank You
+
+Questions & Discussion
+
+Presented By: Mohammad Jamal Arshad
